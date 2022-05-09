@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         self.secondDice.image = UIImage(named: "Dice\(imageIdx[random2]).jpg")
     }
     
+    // test
     func configureRollButtonSetting() {
         self.rollButton.layer.cornerRadius = 10.0
     }
